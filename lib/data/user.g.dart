@@ -36,8 +36,7 @@ UserPicture _$UserPictureFromJson(Map<String, dynamic> json) => UserPicture(
       thumbnail: json['thumbnail'] as String,
     );
 
-Map<String, dynamic> _$UserPictureToJson(UserPicture instance) =>
-    <String, dynamic>{
+Map<String, dynamic> _$UserPictureToJson(UserPicture instance) => <String, dynamic>{
       'large': instance.large,
       'medium': instance.medium,
       'thumbnail': instance.thumbnail,
